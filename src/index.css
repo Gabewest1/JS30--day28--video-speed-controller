@@ -10,10 +10,11 @@ body {
 }
 .wrapper {
   display: flex;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .video-wrapper {
-  width: 80%;
-  max-width: 768px;
+
 }
 video {
   width: 100%;
@@ -28,14 +29,14 @@ video {
   box-shadow: 0 0 1px 3px rgba(0,0,0,0.1);
   overflow: hidden;
   user-select: none;
+  min-width: 40px;
 }
 .speed-bar {
-  width: 40px;
+  width: 100%;
   background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
   text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2px;
   color: white;
 }
